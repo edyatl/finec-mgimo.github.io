@@ -31,8 +31,8 @@ defaultContentLanguage = "ru"
     weight = 2
 
 [params]
-  logofinec = "/finec-mgimo-footer.png"
-  logomgimo = "/MGIMO_Odin-ru-cuted.png"
+  logofinec = "finec-mgimo-footer.png"
+  logomgimo = "MGIMO_Odin-ru-cuted.png"
   linkmgimo = "https://odin.mgimo.ru/"
   yandexMetrika = "89232698"
   gaMeasurementId = "G-FT4YJWWBMK"
