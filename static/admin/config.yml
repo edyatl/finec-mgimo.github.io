@@ -16,12 +16,14 @@ collections: # A list of collections the CMS should be able to edit
       Добавление и редактирование в разделе Блог.
     folder: "content/ru/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    nested:
+        depth: 2
     filter: {field: "cmsedit", value: true}
     slug: "{{year}}-{{month}}-{{day}}-{{fname}}" # Name of post file in folder
     media_folder: "/{{media_folder}}/blog"
     public_folder: "{{public_folder}}/blog"
     fields: # The fields each document in this collection have
-      - { label: "File name", name: "fname", widget: "string"  }
+      - { label: "File name", name: "slug", widget: "string"  }
       - { label: "CMSedit", name: "cmsedit", widget: "hidden", default: true  }
       - { label: "Title", name: "title", widget: "string"  }
       - { label: "Lead", name: "lead", widget: "string"  }
