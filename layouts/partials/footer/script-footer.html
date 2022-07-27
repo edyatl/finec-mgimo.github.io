@@ -31,4 +31,19 @@
   {{ end -}}
   <script src="{{ $jsProd.Permalink }}" integrity="{{ $jsProd.Data.Integrity }}" crossorigin="anonymous" defer></script>
   <script src="{{ $indexProd.Permalink }}" integrity="{{ $indexProd.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+                                    
+          });
+                    
+        }
+              
+      });
+        
+    }
+  </script>
 {{ end -}}
