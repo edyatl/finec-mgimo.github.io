@@ -15,10 +15,10 @@ collections: # A list of collections the CMS should be able to edit
     description: >
       Добавление и редактирование в разделе Блог.
     folder: "content/ru/blog" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    path: "{{slug}}/index"
-    #filter: {field: "cmsedit", value: true}
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Name of post file in folder
+    path: "{{slug}}/index"
+    create: true # Allow users to create new documents in this collection
+    #filter: {field: "cmsedit", value: true}
     media_folder: ""
     public_folder: ""
     fields: # The fields each document in this collection have
