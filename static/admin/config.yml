@@ -22,13 +22,13 @@ collections: # A list of collections the CMS should be able to edit
     media_folder: ""
     public_folder: ""
     fields: # The fields each document in this collection have
-      - { label: "File name", name: "slug", widget: "string"  }
-      - { label: "CMSedit", name: "cmsedit", widget: "hidden", default: true  }
-      - { label: "Title", name: "title", widget: "string"  }
-      - { label: "Lead", name: "lead", widget: "string"  }
-      - { label: "Publish Date", name: "date", widget: "datetime"  }
-      - { label: "Last Modified", name: "lastmod", widget: "datetime"  }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false  }
-      - { label: "Body", name: "body", widget: "markdown"  }
+      - { label: "1File name", name: "slug", widget: "string"  }
+      - { label: "2CMSedit", name: "cmsedit", widget: "hidden", default: true  }
+      - { label: "3Title", name: "title", widget: "string"  }
+      - { label: "4Lead", name: "lead", widget: "string"  }
+      - { label: "5Publish Date", name: "date", widget: "datetime"  }
+      - { label: "6Last Modified", name: "lastmod", widget: "datetime"  }
+      - { label: "7Draft", name: "draft", widget: "boolean", default: false  }
+      - { label: "8Body", name: "body", widget: "markdown"  }
 
 
