@@ -5,6 +5,7 @@ date: 2021-11-18
 lastmod: 2021-11-18
 draft: false
 slug: "fau-phd-seminar"
+cmsedit: true
 ---
 
 It was our pleasure to host an invited session with Florida Atlantic University PhD in Finance program.
